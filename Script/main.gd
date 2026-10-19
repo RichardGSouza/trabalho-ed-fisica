@@ -1,7 +1,4 @@
 extends Control
 
-
-
-
-func _on_jogar_pressed() -> void:
+func _on_texture_button_pressed() -> void:
 	get_tree().change_scene_to_file("res://Cenas/Levels/Level1.tscn")
